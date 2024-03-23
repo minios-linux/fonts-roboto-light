@@ -1,0 +1,23 @@
+Source: fonts-roboto-light
+Priority: optional
+Section: fonts
+Maintainer: crims0n <crims0n@minios.dev>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.1.3
+Homepage: https://github.com/google/roboto
+
+Package: fonts-roboto-light
+Architecture: all
+Multi-Arch: foreign
+Breaks: fonts-roboto-hinted, fonts-roboto-unhinted, fonts-roboto
+Depends: ${misc:Depends}
+Description: Google's signature font Roboto Light
+ Roboto is Google's signature family of fonts, the default font in
+ Android and ChromeOS and the recommended font for Google's visual
+ language, Material Design.
+ .
+ Roboto supports all Latin, Cyrillic, and Greek characters in Unicode
+ 7.0 as well as currency symbol for the Georgian lari, to be published
+ in Unicode 8.0.
+ .
+ This package contains Roboto font families which lack hinting.

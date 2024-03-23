@@ -1,0 +1,20 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Roboto
+Upstream-Contact: https://github.com/google/roboto/issues
+Source: git clone https://github.com/google/roboto
+Comment: Tarball created from git clone using this command:
+ git archive HEAD --format=tar
+
+Files: *
+Copyright: 2015, Google Inc.
+License: Apache-2.0
+
+Files: debian/*
+Copyright: 2024 crims0n <crims0n@minios.dev>
+License: GPL-2+
+
+License: Apache-2.0
+License-Reference: /usr/share/common-licenses/Apache-2.0
+
+License: GPL-2+
+License-Reference: /usr/share/common-licenses/GPL-2
